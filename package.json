@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start:server": "cd server && npm start",
-    "start:vite": "cd vite && npm run dev",
+    "start:vite": "cd client && npm run dev",
     "start": "npm-run-all --parallel start:*"
   },
   "devDependencies": {
